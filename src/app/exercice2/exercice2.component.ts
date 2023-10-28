@@ -9,6 +9,10 @@ export class Exercice2Component implements OnInit {
 
   constructor() { }
 
+  public clic():void{
+    console.log('clic');
+  }
+
   ngOnInit() {
   }
 
